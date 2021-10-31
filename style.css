@@ -1,0 +1,167 @@
+* {
+  font-family: "DM Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.mr-1 {
+  margin-right: 5px;
+}
+
+.mr-2 {
+  margin-right: 10px;
+}
+
+.mr-3 {
+  margin-right: 15px;
+}
+
+.mb-1 {
+  margin-bottom: 5px;
+}
+
+.mb-2 {
+  margin-bottom: 10px;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+
+.heading {
+  font-size: 1.9rem;
+  font-weight: 700;
+}
+
+.sub-heading {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+title {
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 23px;
+}
+
+.sub-title {
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: #2d2d2d;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.hide {
+  display: none !important;
+}
+
+.bot-container {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  min-height: 500px;
+  width: 425px;
+  background: #ffffff;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 720px) {
+  .bot-container {
+    width: 90%;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+}
+
+.bot-top {
+  background: linear-gradient(123.75deg, #f5821f 1.87%, #ff5c00 120.46%);
+  padding: 20px 50px 150px 50px;
+  color: #fff;
+}
+
+.card {
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  border: 1px solid #e4e4e4;
+  background-color: #fff;
+}
+
+.bot-bottom {
+  margin: -100px 20px 30px 20px;
+  position: relative;
+  padding: 50px 20px 20px 20px;
+}
+
+.bot-wrap {
+  width: 67px;
+  height: 67px;
+  background: linear-gradient(180deg, #ff7600 0%, #ff5c00 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -33px;
+  left: 20px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+.list {
+  list-style-type: none;
+  margin-top: 15px;
+}
+
+.list-item {
+  padding: 18px 5px;
+  margin-top: 10px;
+}
+
+.button {
+  height: 44px;
+  background: #ffffff;
+  border: 1px solid #d1d1d1;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+  padding: 0 20px;
+  border-radius: 25px;
+  margin: 40px auto 10px auto;
+  cursor: pointer;
+}
+
+.bot-button {
+  position: initial;
+  right: 20px;
+  bottom: 20px;
+}
+
+.close-btn {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  background: transparent;
+  border: none;
+  color: #000;
+  font-size: 1rem;
+  font-weight: 500;
+  /* border-bottom: .5px solid gray; */
+  border-radius: 5px;
+  pointer-events: auto;
+  border: 1px solid white;
+  border-radius: 4px;
+  width: 20px;
+}

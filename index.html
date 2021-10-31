@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./index.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="bot-wrap bot-button animate__animated animate__bounce" id="botButton" onclick="toggle()">
+
+
+      <img
+        src="./assets/images/bot.png"
+        alt="hand"
+        width="36px"
+        height="30px"
+      />
+    </div>
+    <div class="bot-container hide  animate__animated animate__bounceInUp" id="bot">
+
+      <button onclick="toggle()" type="button" class="close-btn">X</button>
+      
+      <div class="bot-top">
+        <h6 class="heading mb-2">IRIS</h6>
+        <div class="flex-center mb-2">
+          <div class="mr-2 sub-heading">Hello</div>
+          <img
+            src="./assets/images/hand.png"
+            alt="hand"
+            width="25px"
+            height="25px"
+          />
+        </div>
+        <div class="title">I am Iris, a Virtual Assistant</div>
+        <div class="title">How may I help you?</div>
+      </div>
+      <div class="bot-bottom card">
+        <div class="bot-wrap">
+          <img
+            src="./assets/images/bot.png"
+            alt="hand"
+            width="36px"
+            height="30px"
+          />
+        </div>
+        <div class="flex-center">
+          <div class="title mr-2">Frequently Asked Questions</div>
+          <img
+            src="./assets/images/ques.png"
+            alt="hand"
+            width="25px"
+            height="25px"
+          />
+        </div>
+        <ul class="list">
+          <li class="card list-item">
+            <a class="flex-center link" href="./questions/read_me_FB.html" target="_blank">
+              <img
+                src="./assets/images/bullet.png"
+                class="mr-2"
+                alt="hand"
+                width="15px"
+                height="15px"
+              />
+              <div class="sub-title">Can I redeem my FB before the original term?</div>
+            </a>
+          </li>
+          <li class="card flex-center list-item">
+            <a class="flex-center link" href="./questions/credit_card.html" target="_blank">
+              <img
+                src="./assets/images/bullet.png"
+                class="mr-2"
+                alt="hand"
+                width="15px"
+                height="15px"
+              />
+              <div class="sub-title">How do I pay my Credit card bill?</div>
+            </a>
+          </li>
+          <li class="card flex-center list-item">
+            <a class="flex-center link" href="./questions/account_statement.html" target="_blank">
+              <img
+                src="./assets/images/bullet.png"
+                class="mr-2"
+                alt="hand"
+                width="15px"
+                height="15px"
+              />
+              <div class="sub-title">How can I get my Account Statement?</div>
+            </a>
+          </li>
+          <li class="card flex-center list-item">
+            <a class="flex-center link" href="./questions/fixed_diposit.html" target="_blank">
+              <img
+                src="./assets/images/bullet.png"
+                class="mr-2"
+                alt="hand"
+                width="15px"
+                height="15px"
+              />
+              <div class="sub-title">What is the tenure of Fixed Deposit?</div>
+            </a>
+          </li>
+        </ul>
+        <button class="flex-center button">
+          <img
+            src="./assets/images/chat.png"
+            class="mr-2"
+            alt="hand"
+            width="15px"
+            height="15px"
+          />
+          <div class="title">Start a New Conversation</div>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
